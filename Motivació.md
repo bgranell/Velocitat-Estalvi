@@ -8,3 +8,4 @@ $$((Ingressos - Despeses)/Despeses)^-1$$
 La senzillesa d'aquesta dada ens permet calcula-la a partir de les taxes d'estalvi d'una regió i a nivell individual, de manera que ens permet fer una fàcil comparació entre regions i
 individus controlant el nivell de preus.
 
+D'aquesta manera importem les dades d'Excel de les taxes d'estalvi per paísos a R i fem una transformació de la taula per agregar una nova variable: la taxa de consum ( 1 - taxa d'estalvi ), i construim una altra variable a partir d'aquesta mitjançant la fórmula que he comentat anteriorment. ¡¡¡ en comptes de (Ingressos - Despeses)/Despeses fem (1 - taxa de consum)/taxa de consum
