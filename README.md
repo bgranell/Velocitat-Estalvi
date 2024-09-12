@@ -22,4 +22,5 @@ $$((Ingresos - Gastos)/Gastos)^-1$$
 
 La sencillez de este dato nos permite calcularlo a partir de las tasas de ahorro de una región y a nivel individual, por lo que nos permite hacer una fácil comparación entre regiones e individuos controlando el nivel de precios.
 
-De esta forma importamos los datos de Excel de las tasas de ahorro por países en R y hacemos una transformación de la tabla para agregar una nueva variable: la tasa de consumo ( 1 - tasa de ahorro ), y construimos otra variable a partir de ésta mediante la fórmula que he comentado anteriormente. ¡¡¡ en vez de
+De esta forma importamos los datos de Excel de las tasas de ahorro por países en R y hacemos una transformación de la tabla para agregar una nueva variable: la tasa de consumo ( 1 - tasa de ahorro ), y construimos otra variable a partir de ésta mediante la fórmula que he comentado anteriormente. ¡¡¡ en vez de $$(Ingressos - Gastos)/Gastos$$ fem $$(1 - tasa de consumo)/tasa de consumo$$
+
